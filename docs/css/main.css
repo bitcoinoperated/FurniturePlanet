@@ -137,7 +137,7 @@ header {
 /* Banner */
 
 .banner {
-  background: url('css/img/pageBcg/bannerBcg.jpg');
+  background: url('img/img/pageBcg/bannerBcg.jpg');
   min-height: calc(100vh - 126px);
   background-position: center;
   background-size: cover;
@@ -150,17 +150,17 @@ header {
 .banner-store {
   min-height: 45vh;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-    url(css/img/pageBcg/productsBcg.jpg) center/cover fixed no-repeat;
+    url(img/img/pageBcg/productsBcg.jpg) center/cover fixed no-repeat;
 }
 
 .banner-single-product {
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-    url(css/img/pageBcg/singleBcg.jpg) center/cover fixed no-repeat;
+    url(img/img/pageBcg/singleBcg.jpg) center/cover fixed no-repeat;
 }
 
 .banner-store {
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-    url(css/img/pageBcg/storeBcg_cropped2.jpg) center/cover fixed no-repeat;
+    url(img/img/pageBcg/storeBcg_cropped2.jpg) center/cover fixed no-repeat;
 }
 
 /* Services Section */
@@ -227,7 +227,7 @@ header {
 /* Filler Section */
 .home-filler {
   min-height: 40vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(css/img/home-filler_cropped.jpg) center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(docs/img/home-filler_cropped.jpg) center/cover fixed no-repeat;
 }
 
 .home-filler p {
