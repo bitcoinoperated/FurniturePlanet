@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture Planet</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="/js/all.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <a href=" index.html" class="navbar-brand">
+        <img src="img/furniture_planet.png" alt="Company Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2 nav-active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <!-- <li class="nav-item mx-2">
+            <a href="singleproduct.html" class="nav-link">Single Product</a>
+          </li> -->
+          <li class="nav-item mx-2">
+            <a href="store.html" class="nav-link">Cart</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icons d-none d-sm-flex">
+        <!-- Single Icon -->
+        <div class="navbar-icon mx-2"><i class="fas fa-search"></i></div>
+        <!-- End of Single Icon -->
+        <!-- Single Icon -->
+        <a href="store.html" class="navbar-icon mx-2 navbar-cart-icon"><i class="fas fa-shopping-cart"></i>
+          <div class="cart-items">
+            3
+          </div>
+        </a>
+        <!-- End of Single Icon -->
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+  </header>
+  <!-- End of header section -->
+
+  <!-- Banner -->
+  <div class="banner d-flex align-items-center ps-3 ps-md-5">
+    <div>
+      <h1 class="text-capitalize text-slanted mb-0">modern & contemporary</h1>
+      <h1 class="text-uppercase font-weight-bold">style designs</h1>
+      <a href="products.html" class="btn btn-yellow">view products</a>
+    </div>
+  </div>
+  <!-- End of Banner -->
+
+  <!-- Services Section -->
+  <section class="services py-5 text-center">
+    <div class="container">
+      <div class="row">
+        <!-- Single Service -->
+        <div class="col-10 col-sm-6 col-md-4 mx-auto my-3">
+          <span class="service-icon">
+            <i class="fas fa-parachute-box"></i>
+          </span>
+          <h5 class="fw-bold text-uppercase">Free Shipping</h5>
+          <p class="text-trans-dark">Free Shipping On All Order Over €100</p>
+        </div>
+        <!-- End of Single Service -->
+
+        <!-- Single Service -->
+        <div class="col-10 col-sm-6 col-md-4 mx-auto my-3">
+          <span class="service-icon">
+            <i class="fas fa-phone-alt"></i>
+          </span>
+          <h5 class="fw-bold text-uppercase">Online Support</h5>
+          <p class="text-trans-dark">We Are Happy To Assist You With Any Inquiries </p>
+        </div>
+        <!-- End of Single Service -->
+
+        <!-- Single Service -->
+        <div class="col-10 col-sm-6 col-md-4 mx-auto my-3">
+          <span class="service-icon">
+            <i class="fas fa-hand-holding-usd"></i>
+          </span>
+          <h5 class="fw-bold text-uppercase">Money Back Guarantee</h5>
+          <p class="text-trans-dark">100% Refund For 14 Days</p>
+        </div>
+        <!-- End of Single Service -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End of Services Section -->
+
+  <!-- Categories Section -->
+  <section class="home-categories py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Category Title -->
+        <div class="col-10 col-sm-6 col-md-3 mx-auto align-self-center">
+          <h5 class="text-uppercase">Product Categories</h5>
+          <p class="text-trans-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, illo!</p>
+          <a href="products.html" class="fw-normal categories-link">View All Categories</a>
+          <div class="categories-underline"></div>
+        </div>
+        <!-- End of Category Title -->
+
+        <!-- Category Body -->
+        <div class="col-10 col-sm-6 col-md-9 mx-auto my-3">
+          <div class="row">
+            <!-- Single Category -->
+            <div class="col-md-6 col-lg-3 my-3">
+              <div class="category-container">
+                <img src="/img/cagetogoryImg/kitchen-category.jpg" alt="Kitchen Category"
+                  class="img-fluid category-img">
+                <a href="products.html" class="category-link">
+                  <h6 class="text-uppercase mb-0">Kitchen</h6>
+                  <p class="mb-0 text-yellow">10 Items</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of Single Category -->
+
+            <!-- Single Category -->
+            <div class="col-md-6 col-lg-3 my-3">
+              <div class="category-container">
+                <img src="/img/cagetogoryImg/patio-category.jpg" alt="Kitchen Category" class="img-fluid category-img">
+                <a href="products.html" class="category-link">
+                  <h6 class="text-uppercase mb-0">Patio</h6>
+                  <p class="mb-0 text-yellow">18 Items</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of Single Category -->
+
+            <!-- Single Category -->
+            <div class="col-md-6 col-lg-3 my-3">
+              <div class="category-container">
+                <img src="/img/cagetogoryImg/bathroom-category_cropped.jpg" alt="Kitchen Category"
+                  class="img-fluid category-img">
+                <a href="products.html" class="category-link">
+                  <h6 class="text-uppercase mb-0">Bathroom</h6>
+                  <p class="mb-0 text-yellow">15 Items</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of Single Category -->
+
+            <!-- Single Category -->
+            <div class="col-md-6 col-lg-3 my-3">
+              <div class="category-container">
+                <img src="/img/cagetogoryImg/livingroom-category_cropped.jpg" alt="Kitchen Category"
+                  class="img-fluid category-img">
+                <a href="products.html" class="category-link">
+                  <h6 class="text-uppercase mb-0">Living Room</h6>
+                  <p class="mb-0 text-yellow">22 Items</p>
+                </a>
+              </div>
+            </div>
+            <!-- End of Single Category -->
+          </div>
+        </div>
+        <!-- End of Category Body -->
+      </div>
+    </div>
+  </section>
+  <!-- End of Categories Section -->
+
+  <!-- Filler Section -->
+  <section>
+    <!-- Photo by Athena from Pexels -->
+    <div class="container-fluid">
+      <div class="row home-filler align-items-end pb-5">
+        <div class="col-10 mx-auto text-center text-white">
+          <h4 class="text-uppercase">Exclusive Furniture Collection</h4>
+          <p class="text-capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, consectetur.</p>
+          <a href="products.html" class="collection-link fw-normal">View The Collection</a>
+          <div class="collection-underline"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Filler Section -->
+
+  <!-- Featured Section -->
+  <section class="featured py-5">
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-10 mx-auto text-center">
+          <h1>Featured Products</h1>
+          <p class="text-trans-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, exercitationem!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-sm-6 col-md-4">
+          <div class="featured-container p-5">
+            <a href="singleproduct.html">
+              <img src="img/img-products/product-1b.png" alt="Product 1" class="img-fluid">
+            </a>
+            <span class="featured-search-icon" data-bs-toggle="modal" data-bs-target="#productModal">
+              <i class="fas fa-search"></i>
+            </span>
+            <a href="#" class="featured-store-link">Add To Cart</a>
+          </div>
+          <h6 class="text-center my-2">Stylish Armchair</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2 ">€95</span>
+            <span>€85</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-sm-6 col-md-4">
+          <div class="featured-container p-5">
+            <a href="singleproduct.html">
+              <img src="/img/img-products/product-2b.png" alt="Product 2" class="img-fluid">
+            </a>
+            <span class="featured-search-icon" data-bs-toggle="modal" data-bs-target="#productModal">
+              <i class="fas fa-search"></i>
+            </span>
+            <a href="#" class="featured-store-link">Add To Cart</a>
+          </div>
+          <h6 class="text-center my-2">Rocking Armchair</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2 ">€85</span>
+            <span>€75</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-sm-6 col-md-4">
+          <div class="featured-container p-5">
+            <a href="singleproduct.html">
+              <img src="/img/img-products/product-3b.png" alt="Product 3" class="img-fluid">
+            </a>
+            <span class="featured-search-icon" data-bs-toggle="modal" data-bs-target="#productModal">
+              <i class="fas fa-search"></i>
+            </span>
+            <a href="#" class="featured-store-link">Add To Cart</a>
+          </div>
+          <h6 class="text-center my-2">Modern Bed</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2 ">€225</span>
+            <span>€205</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-sm-6 col-md-4">
+          <div class="featured-container p-5">
+            <a href="singleproduct.html">
+              <img src="/img/img-products/product-4b.png" alt="Product 4" class="img-fluid">
+            </a>
+            <span class="featured-search-icon" data-bs-toggle="modal" data-bs-target="#productModal">
+              <i class="fas fa-search"></i>
+            </span>
+            <a href="#" class="featured-store-link">Add To Cart</a>
+          </div>
+          <h6 class="text-center my-2">Basic Table</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2 ">€65</span>
+            <span>€55</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-sm-6 col-md-4">
+          <div class="featured-container p-5">
+            <a href="singleproduct.html">
+              <img src="/img/img-products/product-5b.png" alt="Product 5" class="img-fluid">
+            </a>
+            <span class="featured-search-icon" data-bs-toggle="modal" data-bs-target="#productModal">
+              <i class="fas fa-search"></i>
+            </span>
+            <a href="#" class="featured-store-link">Add To Cart</a>
+          </div>
+          <h6 class="text-center my-2">Leather Sofa</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2 ">€245</span>
+            <span>€195</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-sm-6 col-md-4">
+          <div class="featured-container p-5">
+            <img src="/img/img-products/product-6b.png" alt="Product 6" class="img-fluid">
+            <span class="featured-search-icon" data-bs-toggle="modal" data-bs-target="#productModal">
+              <i class="fas fa-search"></i>
+            </span>
+            <a href="#" class="featured-store-link">Add To Cart</a>
+          </div>
+          <h6 class="text-center my-2">Vintage Sofa</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2 ">€200</span>
+            <span>€175</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End of Featured Section -->
+
+  <!-- Partners Sections -->
+
+  <section class="partners py-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Partner Carousel -->
+        <div class="col-6 col-sm-6 col-md-4 mx-auto">
+          <div id="partnerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <!-- Carousel Item -->
+              <div class="carousel-item active">
+                <img src="img/company-logos/company-logo-1.png" alt="Company Logo 1" class="d-block w-100">
+              </div>
+              <!-- End of Carousel Item -->
+
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <img src="img/company-logos/company-logo-2.png" alt="Company Logo 2" class="d-block w-100">
+              </div>
+              <!-- End of Carousel Item -->
+
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <img src="img/company-logos/company-logo-3.png" alt="Company Logo 3" class="d-block w-100">
+              </div>
+              <!-- End of Carousel Item -->
+
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <img src="img/company-logos/company-logo-4.png" alt="Company Logo 4" class="d-block w-100">
+              </div>
+              <!-- End of Carousel Item -->
+
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <img src="img/company-logos/company-logo-5.png" alt="Company Logo 5" class="d-block w-100">
+              </div>
+              <!-- End of Carousel Item -->
+
+              <!-- Carousel Item -->
+              <div class="carousel-item">
+                <img src="img/company-logos/company-logo-6.png" alt="Company Logo 6" class="d-block w-100">
+              </div>
+              <!-- End of Carousel Item -->
+
+            </div>
+            <a href="#partnerCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+              <i class="fas fa-arrow-left"></i>
+            </a>
+            <a href="#partnerCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <!-- End of Partner Carousel -->
+      </div>
+    </div>
+  </section>
+
+  <!-- End of Partners Sections -->
+
+  <!-- Newsletter Section -->
+  <section class="newsletter py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto text-center">
+          <h2 class="text-uppercase">Newsletter</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptas numquam eos nostrum
+            obcaecati molestiae impedit voluptatum delectus, quos odio.</p>
+          <form>
+            <div class="input-group mt-5 mb-4">
+              <input type="text" class="form-control" placeholder="Enter Your Email">
+              <div class="input-group-text form-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-yellow rounded-3">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Newsletter Section -->
+
+  <!-- Skills Section -->
+
+  <section class="skills py-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Single Skill -->
+        <div class="d-flex col-10 col-sm-6 col-md-4 mx-auto my-3">
+          <div class="skill-icon me-3">
+            <i class="fas fa-truck-moving"></i>
+          </div>
+          <div>
+            <h3 class="text-uppercase">Free Shipping</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, recusandae.</p>
+          </div>
+        </div>
+        <!-- End of Single Skill -->
+
+        <!-- Single Skill -->
+        <div class="d-flex col-10 col-sm-6 col-md-4 mx-auto my-3">
+          <div class="skill-icon me-3">
+            <i class="fas fa-comment-dollar"></i>
+          </div>
+          <div>
+            <h3 class="text-uppercase">Price Promise</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, recusandae.</p>
+          </div>
+        </div>
+        <!-- End of Single Skill -->
+
+        <!-- Single Skill -->
+        <div class="d-flex col-10 col-sm-6 col-md-4 mx-auto my-3">
+          <div class="skill-icon me-3">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div>
+            <h3 class="text-uppercase">Lifetime Warranty</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, recusandae.</p>
+          </div>
+        </div>
+        <!-- End of Single Skill -->
+      </div>
+    </div>
+  </section>
+  <!-- End of Skills Sections -->
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto text-center">
+          <h1 class="footer-title d-inline-block text-center text-uppercase">Furniture Planet</h1>
+          <!-- Footer icons -->
+          <div class="d-flex footer-icons my-3 justify-content-center">
+
+            <!-- Single Icon -->
+            <a href="#" class="footer-icon mx-2">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <!-- End of Single Icon -->
+            <!-- Single Icon -->
+            <a href="#" class="footer-icon mx-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <!-- End of Single Icon -->
+            <!-- Single Icon -->
+            <a href="#" class="footer-icon mx-2">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <!-- End of Single Icon -->
+            <!-- Single Icon -->
+            <a href="#" class="footer-icon mx-2">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <!-- End of Single Icon -->
+          </div>
+          <!-- End of Footer Icons -->
+
+          <p class="text-capitalize w-75 mx-auto text-start">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Omnis harum dolor voluptate repellendus libero animi iure excepturi tenetur facere earum!
+          </p>
+
+          <!-- Contacts -->
+          <div class="footer-contact d-flex mt-5 justify-content-around flex-wrap">
+
+            <!-- Single Contact -->
+            <div class="contact-text">
+              <span class="footer-icon me-2">
+                <i class="fas fa-map-marker"></i>
+              </span>
+              London Street 10, London
+            </div>
+            <!-- End of Single Contact -->
+            <!-- Single Contact -->
+            <div class="contact-text">
+              <span class="footer-icon me-2">
+                <i class="fas fa-phone"></i>
+              </span>
+              Phone: + 48 XXX XXX XXX
+            </div>
+            <!-- End of Single Contact -->
+            <!-- Single Contact -->
+            <div class="contact-text">
+              <span class="footer-icon me-2">
+                <i class="fas fa-at"></i>
+              </span>
+              Email: furnitureplanet@email.com
+            </div>
+            <!-- End of Single Contact -->
+
+          </div>
+          <!-- End of Contacts -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">Product Info</h5>
+          <button type="button" class="close" data-bs-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!-- End of Modal Header -->
+
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col text-center">
+              <img src="/img/img-products/product-1.png" alt="Image of Product" class="img-fluid">
+              <!-- Product Rating -->
+              <div class="ratings">
+                <span class="rating-icon"><i class="fas fa-star"></i></span>
+                <span class="rating-icon"><i class="fas fa-star"></i></span>
+                <span class="rating-icon"><i class="fas fa-star"></i></span>
+                <span class="rating-icon"><i class="fas fa-star"></i></span>
+                <span class="rating-icon"><i class="far fa-star"></i></span>
+                <span>(34 Customer Reviews)</span>
+              </div>
+              <!-- End Product Rating -->
+              <h2 class="text-uppercase my-2">High-Quality Chair</h2>
+              <h2>€10.00 - €300.00 </h2>
+              <p class="lead rating-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consectetur
+                beatae
+                quisquam nemo. Aut, iste.</p>
+              <!-- Rating Colours -->
+              <h5 class="text-uppercase">
+                Colors :
+                <span class="d-inline-block products-color products-color-black me-2"></span>
+                <span class="d-inline-block products-color products-color-white me-2"></span>
+                <span class="d-inline-block products-color products-color-red me-2"></span>
+              </h5>
+              <!-- End of Rating Colours -->
+              <!-- Product Sizes -->
+              <h5 class="text-uppercase">
+                Sizes:
+                <span class="mx-2">Regular</span>
+                <span class="mx-2">Large</span>
+              </h5>
+              <div class="d-flex flex-wrap">
+                <!-- Cart Buttons -->
+                <div class="d-flex my-2">
+                  <span class="btn btn-black mx-1">-</span>
+                </div>
+                <div class="d-flex my-2">
+                  <span class="btn btn-black mx-1">1</span>
+                </div>
+                <div class="d-flex my-2">
+                  <span class="btn btn-black mx-1">+</span>
+                </div>
+                <button class="btn btn-black my-2 mx-2">Wishlist</button>
+                <button class="btn btn-yellow my-2 mx-2">Add To Cart</button>
+                <!-- End of Cart Buttons -->
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <!-- End of Modal Body -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-modal" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End of Modal -->
+
+
+
+  <!-- JQuery -->
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
